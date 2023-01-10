@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="com.restfulbooker.bookininfo.TagsTest" skipped="0" tests="1" time="4.21" timestamp="2023-01-10T19:51:36.873Z[Europe/London]"><testcase classname="com.restfulbooker.bookininfo.TagsTest" name="Provide a 500 status code when incorrect HTTP method is used to access resource"><failure message="1 expectation failed.&#10;Expected status code &lt;500&gt; but was &lt;415&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;500&gt; but was &lt;415&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;500&gt; but was &lt;415&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.restfulbooker.bookininfo.TagsTest.invalidMethod(TagsTest.java:26)&#13;
+</system-err></testcase></testsuite>

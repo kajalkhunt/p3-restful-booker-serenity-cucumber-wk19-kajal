@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.restfulbooker.cucumber.CucumberRunner" time="0.416" tests="44" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="idea.version" value="2022.2.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Rx_bh\IdeaProjects\p3-restful-booker-serenity-cucumber-wk19-kajal"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Rx_bh\IdeaProjects\p3-restful-booker-serenity-cucumber-wk19-kajal"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Rx_bh\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\Git\cmd;%MVN_HOME%\bin;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\Apache\apache-maven-3.8.6\bin;C:\Program Files\nodejs\;C:\Users\Rx_bh\AppData\Local\Microsoft\WindowsApps;C:\Users\Rx_bh\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Rx_bh"/>
+    <property name="tags" value="restfulbookerfeature:NEGATIVE"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Rx_bh"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3\boot\plexus-classworlds.license;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.2.2 clean verify -Dtags=restfulbookerfeature:NEGATIVE serenity:aggregate"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Given RestfulBooker application is running" classname="Scenario: As a user I am creating authorization token" time="0"/>
+  <testcase name="When I enter username &quot;admin&quot; and password &quot;password123&quot;" classname="Scenario: As a user I am creating authorization token" time="0"/>
+  <testcase name="Then I get authorization token" classname="Scenario: As a user I am creating authorization token" time="0"/>
+  <testcase name="Scenario: As a user I am creating authorization token" classname="Scenario: As a user I am creating authorization token" time="0.144"/>
+  <testcase name="When When I create a new booking by providing the information firstName &quot;Tommie&quot; lastName &quot;Ringsell&quot; totalprice &quot;500&quot; depositpaid &quot;100&quot; checkin &quot;2022-01-16&quot;checkout &quot;2022-03-13&quot;additionalneeds &quot;Breakfast&quot;" classname="| Tommie | Ringsell | 500 | 100 | 2022-01-16 | 2022-03-13 | Breakfast |" time="0"/>
+  <testcase name="When When I create a new booking by providing the information firstName &quot;Tommie&quot; lastName &quot;Ringsell&quot; totalprice &quot;500&quot; depositpaid &quot;100&quot; checkin &quot;2022-01-16&quot;checkout &quot;2022-03-13&quot;additionalneeds &quot;Breakfast&quot;" classname="| Tommie | Ringsell | 500 | 100 | 2022-01-16 | 2022-03-13 | Breakfast |" time="0"/>
+  <testcase name="Then I verify that Booking with bookingId is created" classname="| Tommie | Ringsell | 500 | 100 | 2022-01-16 | 2022-03-13 | Breakfast |" time="0"/>
+  <testcase name="Then I verify that Booking with bookingId is created" classname="| Tommie | Ringsell | 500 | 100 | 2022-01-16 | 2022-03-13 | Breakfast |" time="0"/>
+  <testcase name="| Tommie | Ringsell | 500 | 100 | 2022-01-16 | 2022-03-13 | Breakfast |" classname="| Tommie | Ringsell | 500 | 100 | 2022-01-16 | 2022-03-13 | Breakfast |" time="0.002"/>
+  <testcase name="| Tommie | Ringsell | 500 | 100 | 2022-01-16 | 2022-03-13 | Breakfast |" classname="| Tommie | Ringsell | 500 | 100 | 2022-01-16 | 2022-03-13 | Breakfast |" time="0.002"/>
+  <testcase name="When When I create a new booking by providing the information firstName &quot;Dynah&quot; lastName &quot;Studdert&quot; totalprice &quot;200&quot; depositpaid &quot;100&quot; checkin &quot;2022-03-10&quot;checkout &quot;2022-06-19&quot;additionalneeds &quot;Breakfast&quot;" classname="| Dynah | Studdert | 200 | 100 | 2022-03-10 | 2022-06-19 | Breakfast |" time="0"/>
+  <testcase name="When When I create a new booking by providing the information firstName &quot;Dynah&quot; lastName &quot;Studdert&quot; totalprice &quot;200&quot; depositpaid &quot;100&quot; checkin &quot;2022-03-10&quot;checkout &quot;2022-06-19&quot;additionalneeds &quot;Breakfast&quot;" classname="| Dynah | Studdert | 200 | 100 | 2022-03-10 | 2022-06-19 | Breakfast |" time="0"/>
+  <testcase name="Then I verify that Booking with bookingId is created" classname="| Dynah | Studdert | 200 | 100 | 2022-03-10 | 2022-06-19 | Breakfast |" time="0"/>
+  <testcase name="Then I verify that Booking with bookingId is created" classname="| Dynah | Studdert | 200 | 100 | 2022-03-10 | 2022-06-19 | Breakfast |" time="0"/>
+  <testcase name="| Dynah | Studdert | 200 | 100 | 2022-03-10 | 2022-06-19 | Breakfast |" classname="| Dynah | Studdert | 200 | 100 | 2022-03-10 | 2022-06-19 | Breakfast |" time="0.002"/>
+  <testcase name="| Dynah | Studdert | 200 | 100 | 2022-03-10 | 2022-06-19 | Breakfast |" classname="| Dynah | Studdert | 200 | 100 | 2022-03-10 | 2022-06-19 | Breakfast |" time="0.083"/>
+  <testcase name="When When I create a new booking by providing the information firstName &quot;Marilee&quot; lastName &quot;Mebs&quot; totalprice &quot;300&quot; depositpaid &quot;200&quot; checkin &quot;2022-04-25&quot;checkout &quot;2022-06-28&quot;additionalneeds &quot;Dinner&quot;" classname="| Marilee | Mebs | 300 | 200 | 2022-04-25 | 2022-06-28 | Dinner |" time="0"/>
+  <testcase name="Then I verify that Booking with bookingId is created" classname="| Marilee | Mebs | 300 | 200 | 2022-04-25 | 2022-06-28 | Dinner |" time="0"/>
+  <testcase name="| Marilee | Mebs | 300 | 200 | 2022-04-25 | 2022-06-28 | Dinner |" classname="| Marilee | Mebs | 300 | 200 | 2022-04-25 | 2022-06-28 | Dinner |" time="0.002"/>
+  <testcase name="When When I create a new booking by providing the information firstName &quot;Sheppard&quot; lastName &quot;Bernardes&quot; totalprice &quot;500&quot; depositpaid &quot;200&quot; checkin &quot;2022-03-22&quot;checkout &quot;2022-03-25&quot;additionalneeds &quot;Dinner&quot;" classname="| Sheppard | Bernardes | 500 | 200 | 2022-03-22 | 2022-03-25 | Dinner |" time="0"/>
+  <testcase name="Then I verify that Booking with bookingId is created" classname="| Sheppard | Bernardes | 500 | 200 | 2022-03-22 | 2022-03-25 | Dinner |" time="0"/>
+  <testcase name="| Sheppard | Bernardes | 500 | 200 | 2022-03-22 | 2022-03-25 | Dinner |" classname="| Sheppard | Bernardes | 500 | 200 | 2022-03-22 | 2022-03-25 | Dinner |" time="0.003"/>
+  <testcase name="When When I create a new booking by providing the information firstName &quot;Cynthia&quot; lastName &quot;Eversfield&quot; totalprice &quot;100&quot; depositpaid &quot;100&quot; checkin &quot;2022-05-14&quot;checkout &quot;2022-04-07&quot;additionalneeds &quot;Mainmeal&quot;" classname="| Cynthia | Eversfield | 100 | 100 | 2022-05-14 | 2022-04-07 | Mainmeal |" time="0"/>
+  <testcase name="Then I verify that Booking with bookingId is created" classname="| Cynthia | Eversfield | 100 | 100 | 2022-05-14 | 2022-04-07 | Mainmeal |" time="0"/>
+  <testcase name="| Cynthia | Eversfield | 100 | 100 | 2022-05-14 | 2022-04-07 | Mainmeal |" classname="| Cynthia | Eversfield | 100 | 100 | 2022-05-14 | 2022-04-07 | Mainmeal |" time="0.076"/>
+  <testcase name="When I update a booking with firstName &quot;Cynthia1&quot; lastName &quot;Eversfield&quot; totalPrice &quot;100&quot; depositPaid &quot;100&quot; checkIn &quot;2022-05-14&quot; checkOut &quot;2022-04-07&quot; additionalNeeds &quot;Mainmeal and Veg&quot;" classname="| Cynthia1 | Eversfield | 100 | 100 | 2022-05-14 | 2022-04-07 | Mainmeal and Veg | 200 |" time="0"/>
+  <testcase name="Then I verify the response has &quot;200&quot; status code" classname="| Cynthia1 | Eversfield | 100 | 100 | 2022-05-14 | 2022-04-07 | Mainmeal and Veg | 200 |" time="0"/>
+  <testcase name="| Cynthia1 | Eversfield | 100 | 100 | 2022-05-14 | 2022-04-07 | Mainmeal and Veg | 200 |" classname="| Cynthia1 | Eversfield | 100 | 100 | 2022-05-14 | 2022-04-07 | Mainmeal and Veg | 200 |" time="0.14"/>
+  <testcase name="When I update partial booking with firstName &quot;Cynthia&quot; lastName &quot;Eversfield1&quot; totalPrice &quot;100&quot; depositPaid &quot;100&quot; checkIn &quot;2022-05-14&quot; checkOut &quot;2022-04-07&quot; additionalNeeds &quot;Mainmeal&quot;" classname="| Cynthia | Eversfield1 | 100 | 100 | 2022-05-14 | 2022-04-07 | Mainmeal | 200 |" time="0"/>
+  <testcase name="Then I verify the response has &quot;200&quot; status code" classname="| Cynthia | Eversfield1 | 100 | 100 | 2022-05-14 | 2022-04-07 | Mainmeal | 200 |" time="0"/>
+  <testcase name="Then I verify the response has &quot;200&quot; status code" classname="| Cynthia | Eversfield1 | 100 | 100 | 2022-05-14 | 2022-04-07 | Mainmeal | 200 |" time="0"/>
+  <testcase name="| Cynthia | Eversfield1 | 100 | 100 | 2022-05-14 | 2022-04-07 | Mainmeal | 200 |" classname="| Cynthia | Eversfield1 | 100 | 100 | 2022-05-14 | 2022-04-07 | Mainmeal | 200 |" time="0.047"/>
+  <testcase name="| Cynthia | Eversfield1 | 100 | 100 | 2022-05-14 | 2022-04-07 | Mainmeal | 200 |" classname="| Cynthia | Eversfield1 | 100 | 100 | 2022-05-14 | 2022-04-07 | Mainmeal | 200 |" time="0.051"/>
+  <testcase name="When I delete the booking with bookingId" classname="| Cynthia | Eversfield1 | 100 | 100 | 2022-05-14 | 2022-04-07 | Mainmeal | 200 |" time="0"/>
+  <testcase name="Given RestfulBooker application is running" classname="| Tommie | Ringsell | 500 | 100 | 2022-01-16 | 2022-03-13 | Breakfast |" time="0"/>
+  <testcase name="And I update a booking with firstName &quot;Tommie&quot; lastName &quot;Ringsell&quot; totalPrice &quot;500&quot; depositPaid &quot;100&quot; checkIn &quot;2022-01-16&quot; checkOut &quot;2022-03-13&quot; additionalNeeds &quot;Breakfast&quot;" classname="| Tommie | Ringsell | 500 | 100 | 2022-01-16 | 2022-03-13 | Breakfast |" time="0"/>
+  <testcase name="And I update partial booking with firstName &quot;Tommie&quot; lastName &quot;Ringsell&quot; totalPrice &quot;500&quot; depositPaid &quot;100&quot; checkIn &quot;2022-01-16&quot; checkOut &quot;2022-03-13&quot; additionalNeeds &quot;Breakfast&quot;" classname="| Tommie | Ringsell | 500 | 100 | 2022-01-16 | 2022-03-13 | Breakfast |" time="0"/>
+  <testcase name="And I delete the booking with bookingId" classname="| Tommie | Ringsell | 500 | 100 | 2022-01-16 | 2022-03-13 | Breakfast |" time="0"/>
+  <testcase name="Then I verify the response has &quot;&lt;code&gt;&quot; status code" classname="| Tommie | Ringsell | 500 | 100 | 2022-01-16 | 2022-03-13 | Breakfast |" time="0"/>
+  <testcase name="Given RestfulBooker application is running" classname="| Dynah | Studdert | 200 | 100 | 2022-03-10 | 2022-06-19 | Breakfast |" time="0"/>
+  <testcase name="And I update a booking with firstName &quot;Dynah&quot; lastName &quot;Studdert&quot; totalPrice &quot;200&quot; depositPaid &quot;100&quot; checkIn &quot;2022-03-10&quot; checkOut &quot;2022-06-19&quot; additionalNeeds &quot;Breakfast&quot;" classname="| Dynah | Studdert | 200 | 100 | 2022-03-10 | 2022-06-19 | Breakfast |" time="0"/>
+  <testcase name="And I update partial booking with firstName &quot;Dynah&quot; lastName &quot;Studdert&quot; totalPrice &quot;200&quot; depositPaid &quot;100&quot; checkIn &quot;2022-03-10&quot; checkOut &quot;2022-06-19&quot; additionalNeeds &quot;Breakfast&quot;" classname="| Dynah | Studdert | 200 | 100 | 2022-03-10 | 2022-06-19 | Breakfast |" time="0"/>
+  <testcase name="And I delete the booking with bookingId" classname="| Dynah | Studdert | 200 | 100 | 2022-03-10 | 2022-06-19 | Breakfast |" time="0"/>
+  <testcase name="Then I verify the response has &quot;&lt;code&gt;&quot; status code" classname="| Dynah | Studdert | 200 | 100 | 2022-03-10 | 2022-06-19 | Breakfast |" time="0"/>
+</testsuite>
